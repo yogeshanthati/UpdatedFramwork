@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="256231" started-at="2018-02-15T13:44:12Z" finished-at="2018-02-15T13:48:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="256231" started-at="2018-02-15T13:44:12Z" finished-at="2018-02-15T13:48:28Z">
+      <class name="com.pa.qa.testcases.TestCases">
+        <test-method status="PASS" signature="ConfigureReport()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="ConfigureReport" is-config="true" duration-ms="129" started-at="2018-02-15T19:14:12Z" finished-at="2018-02-15T19:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="setUp" is-config="true" duration-ms="24314" started-at="2018-02-15T19:14:12Z" finished-at="2018-02-15T19:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="HomePageNavigateTest()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="HomePageNavigateTest" duration-ms="14161" started-at="2018-02-15T19:14:37Z" finished-at="2018-02-15T19:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigateTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="getResult" is-config="true" duration-ms="106" started-at="2018-02-15T19:14:51Z" finished-at="2018-02-15T19:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageNavigateTest status=SUCCESS method=TestCases.HomePageNavigateTest()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="setUp" is-config="true" duration-ms="17292" started-at="2018-02-15T19:14:51Z" finished-at="2018-02-15T19:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="HomePageTest()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="HomePageTest" duration-ms="9225" started-at="2018-02-15T19:15:08Z" finished-at="2018-02-15T19:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="getResult" is-config="true" duration-ms="195" started-at="2018-02-15T19:15:17Z" finished-at="2018-02-15T19:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageTest status=SUCCESS method=TestCases.HomePageTest()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="setUp" is-config="true" duration-ms="14190" started-at="2018-02-15T19:15:18Z" finished-at="2018-02-15T19:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="LogInToApp" duration-ms="5228" started-at="2018-02-15T19:15:32Z" data-provider="getLogInTestData" finished-at="2018-02-15T19:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yogesh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suntech123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInToApp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="getResult" is-config="true" duration-ms="95" started-at="2018-02-15T19:15:37Z" finished-at="2018-02-15T19:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogInToApp status=SUCCESS method=TestCases.LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="setUp" is-config="true" duration-ms="36642" started-at="2018-02-15T19:15:37Z" finished-at="2018-02-15T19:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="LogInToApp" duration-ms="5384" started-at="2018-02-15T19:16:14Z" data-provider="getLogInTestData" finished-at="2018-02-15T19:16:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yogesh2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suntech124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInToApp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="getResult" is-config="true" duration-ms="105" started-at="2018-02-15T19:16:19Z" finished-at="2018-02-15T19:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogInToApp status=SUCCESS method=TestCases.LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="setUp" is-config="true" duration-ms="21265" started-at="2018-02-15T19:16:20Z" finished-at="2018-02-15T19:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="LogInToApp" duration-ms="5313" started-at="2018-02-15T19:16:41Z" data-provider="getLogInTestData" finished-at="2018-02-15T19:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yogesh3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suntech125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInToApp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="getResult" is-config="true" duration-ms="122" started-at="2018-02-15T19:16:46Z" finished-at="2018-02-15T19:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogInToApp status=SUCCESS method=TestCases.LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="setUp" is-config="true" duration-ms="31726" started-at="2018-02-15T19:16:46Z" finished-at="2018-02-15T19:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="LogInToApp" duration-ms="6842" started-at="2018-02-15T19:17:18Z" data-provider="getLogInTestData" finished-at="2018-02-15T19:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yogesh4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suntech126]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInToApp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="getResult" is-config="true" duration-ms="147" started-at="2018-02-15T19:17:25Z" finished-at="2018-02-15T19:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogInToApp status=SUCCESS method=TestCases.LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="setUp" is-config="true" duration-ms="21820" started-at="2018-02-15T19:17:25Z" finished-at="2018-02-15T19:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="LogInToApp" duration-ms="5790" started-at="2018-02-15T19:17:47Z" data-provider="getLogInTestData" finished-at="2018-02-15T19:17:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yogesh5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suntech127]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInToApp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="getResult" is-config="true" duration-ms="148" started-at="2018-02-15T19:17:53Z" finished-at="2018-02-15T19:17:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogInToApp status=SUCCESS method=TestCases.LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="setUp" is-config="true" duration-ms="29911" started-at="2018-02-15T19:17:53Z" finished-at="2018-02-15T19:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="LogInToApp" duration-ms="5262" started-at="2018-02-15T19:18:23Z" data-provider="getLogInTestData" finished-at="2018-02-15T19:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yogesh6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suntech128]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInToApp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="getResult" is-config="true" duration-ms="144" started-at="2018-02-15T19:18:28Z" finished-at="2018-02-15T19:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogInToApp status=SUCCESS method=TestCases.LogInToApp(java.lang.String, java.lang.String)[pri:0, instance:com.pa.qa.testcases.TestCases@26653222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pa.qa.testcases.TestCases@26653222]" name="tearDown" is-config="true" duration-ms="267" started-at="2018-02-15T19:18:28Z" finished-at="2018-02-15T19:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pa.qa.testcases.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

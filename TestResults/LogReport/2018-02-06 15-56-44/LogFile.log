@@ -1,0 +1,12 @@
+2018-02-06 16:02:36 INFO  Log:10 - Driver Intiallized
+2018-02-06 16:03:07 INFO  Log:10 - Url Has Entered
+2018-02-06 16:03:07 INFO  Log:10 - Started HomePageImageNavigateTest
+2018-02-06 16:03:28 INFO  Log:10 - ended HomePageImageNavigateTest
+2018-02-06 16:03:34 INFO  Log:10 - Driver Intiallized
+2018-02-06 16:03:52 INFO  Log:10 - Url Has Entered
+2018-02-06 16:03:52 INFO  Log:10 - Started HomePageTestCase
+2018-02-06 16:04:03 INFO  Log:10 - ended HomePageTestCase
+2018-02-06 16:04:08 INFO  Log:10 - Driver Intiallized
+2018-02-06 16:04:23 INFO  Log:10 - Url Has Entered
+2018-02-06 16:04:23 INFO  Log:10 - Started LogInTest
+2018-02-06 16:05:10 INFO  Log:10 - ended LogInTest

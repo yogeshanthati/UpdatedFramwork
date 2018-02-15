@@ -1,0 +1,12 @@
+com\pa\qa\pages\ShopPage.class
+com\pa\qa\util\Log.class
+com\pa\qa\base\TestBase.class
+com\pa\qa\pages\SingleItemAddPage.class
+com\pa\qa\pages\MyAccountPageRegisterAndLogin.class
+com\pa\qa\pages\CartPage.class
+com\pa\qa\pages\HomePage.class
+com\pa\qa\reportlistener\Log4j.class
+com\pa\qa\reportlistener\CaptureScreenShot.class
+com\pa\qa\util\TestUtil.class
+com\pa\qa\util\Constants.class
+com\pa\qa\pages\MyAccountPage.class

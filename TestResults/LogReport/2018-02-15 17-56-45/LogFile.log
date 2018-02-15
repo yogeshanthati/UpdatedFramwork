@@ -1,0 +1,43 @@
+2018-02-15 18:32:16 INFO  Log:10 - Driver Intiallized
+2018-02-15 18:32:43 INFO  Log:10 - Url Has Entered
+2018-02-15 18:32:43 INFO  Log:10 - Started HomePageImageNavigateTest
+2018-02-15 18:33:00 INFO  Log:10 - ended HomePageImageNavigateTest
+2018-02-15 18:33:06 INFO  Log:10 - Driver Intiallized
+2018-02-15 18:41:57 INFO  Log:10 - Driver Intiallized
+2018-02-15 18:42:19 INFO  Log:10 - Url Has Entered
+2018-02-15 18:42:20 INFO  Log:10 - Started HomePageImageNavigateTest
+2018-02-15 18:42:34 INFO  Log:10 - ended HomePageImageNavigateTest
+2018-02-15 18:42:38 INFO  Log:10 - Driver Intiallized
+2018-02-15 18:43:00 INFO  Log:10 - Url Has Entered
+2018-02-15 18:43:01 INFO  Log:10 - Started HomePageTestCase
+2018-02-15 18:43:12 INFO  Log:10 - ended HomePageTestCase
+2018-02-15 18:43:16 INFO  Log:10 - Driver Intiallized
+2018-02-15 18:43:33 INFO  Log:10 - Url Has Entered
+2018-02-15 18:43:33 INFO  Log:10 - Started LogInTest
+2018-02-15 18:43:33 INFO  Log:10 - This is log in page
+2018-02-15 18:43:41 INFO  Log:10 - This is log in page
+2018-02-15 18:43:41 INFO  Log:10 - ended LogInTest
+2018-02-15 18:43:44 INFO  Log:10 - Driver Intiallized
+2018-02-15 18:43:54 INFO  Log:10 - Url Has Entered
+2018-02-15 18:43:54 INFO  Log:10 - Started LogInTest
+2018-02-15 18:43:54 INFO  Log:10 - This is log in page
+2018-02-15 18:44:07 INFO  Log:10 - This is log in page
+2018-02-15 18:44:07 INFO  Log:10 - ended LogInTest
+2018-02-15 18:44:19 INFO  Log:10 - Driver Intiallized
+2018-02-15 18:44:43 INFO  Log:10 - Url Has Entered
+2018-02-15 18:44:43 INFO  Log:10 - Started LogInTest
+2018-02-15 18:44:43 INFO  Log:10 - This is log in page
+2018-02-15 18:44:53 INFO  Log:10 - This is log in page
+2018-02-15 18:44:53 INFO  Log:10 - ended LogInTest
+2018-02-15 18:45:01 INFO  Log:10 - Driver Intiallized
+2018-02-15 18:45:24 INFO  Log:10 - Url Has Entered
+2018-02-15 18:45:24 INFO  Log:10 - Started LogInTest
+2018-02-15 18:45:24 INFO  Log:10 - This is log in page
+2018-02-15 18:45:45 INFO  Log:10 - This is log in page
+2018-02-15 18:45:45 INFO  Log:10 - ended LogInTest
+2018-02-15 18:45:52 INFO  Log:10 - Driver Intiallized
+2018-02-15 18:46:06 INFO  Log:10 - Url Has Entered
+2018-02-15 18:46:06 INFO  Log:10 - Started LogInTest
+2018-02-15 18:46:06 INFO  Log:10 - This is log in page
+2018-02-15 18:46:13 INFO  Log:10 - This is log in page
+2018-02-15 18:46:13 INFO  Log:10 - ended LogInTest

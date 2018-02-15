@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.pa.qa.testcases.TestCases">
+        <methods>
+          <include name="getResult"/>
+          <include name="HomePageNavigateTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="HomePageTest"/>
+        </methods>
+      </class> <!-- com.pa.qa.testcases.TestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
