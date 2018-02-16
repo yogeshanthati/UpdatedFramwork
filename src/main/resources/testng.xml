@@ -1,13 +1,15 @@
-
 <suite configfailurepolicy="continue" name="Suite" parallel="none">
 <test name="Test" preserve-order="true">
 <classes>
-	<class name="com.pa.qa.testcases.TestCases" />	
+	<class name="com.pa.qa.testcases.TestCases" >	
 		<methods>
         	<include name="HomePageNavigateTest"/>
        		<include name="HomePageTest"/>
         	<exclude name="LogInToApp"/>
      	 </methods>
-</classes>
+     	 
+		</class>
+		
+		</classes>
 	</test>
 </suite>
