@@ -52,10 +52,10 @@ public abstract class TestBase extends Constants {
 		}	
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")){
-			/*System.setProperty("webdriver.chrome.driver","./src/main/resources/chromedriver.exe");	
-			driver = new ChromeDriver(); */
-			DesiredCapabilities Capabilities= DesiredCapabilities.chrome();
-			driver=new RemoteWebDriver(new URL(" http://localhost:4444/wd/hub"),Capabilities);
+			System.setProperty("webdriver.chrome.driver","./src/main/resources/chromedriver.exe");	
+			driver = new ChromeDriver(); 
+		//	DesiredCapabilities Capabilities= DesiredCapabilities.chrome();
+		//	driver=new RemoteWebDriver(new URL(" http://localhost:4444/wd/hub"),Capabilities);
 			Log.info("Driver Intiallized");
 			driver.manage().timeouts().pageLoadTimeout(Constants.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		}
