@@ -37,7 +37,7 @@ public abstract class TestBase extends Constants {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Constants.extent = new ExtentReports(System.getProperty("user.dir") + "/TestResults/Extentreports/PAExtent"+Constants.TestResult_Path+".html", true);
+		Constants.extent = new ExtentReports(System.getProperty("user.dir") + "/TestResults/Extentreports/"+Constants.TestResult_Path+"/ExtentReport.html", true);
     
 	}
 	public static void intialization() throws MalformedURLException{
