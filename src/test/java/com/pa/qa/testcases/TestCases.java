@@ -2,15 +2,14 @@ package com.pa.qa.testcases;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
-
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.pa.qa.base.TestBase;
 import com.pa.qa.pages.*;
 import com.pa.qa.reportlistener.CaptureScreenShot;
@@ -21,7 +20,7 @@ import com.pa.qa.util.TestUtil;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class TestCases 
+public class TestCases
 {
     HomePage HomePage;
     SingleItemAddPage SingleItemAddPage;
@@ -30,7 +29,7 @@ public class TestCases
     String sheetName1="Login1";
     
     
-      @BeforeTest 
+    @BeforeSuite
     public void ConfigureReport(){
 
 		TestBase.Cofigurereport();
@@ -39,7 +38,6 @@ public class TestCases
     public void setUp() throws MalformedURLException
     {
         TestBase.intialization();
-     
     }
      
     @Test(alwaysRun = true)
@@ -77,8 +75,7 @@ public class TestCases
 	}    
     @AfterMethod
     public void getResult(ITestResult result) throws IOException
-    {
-    	
+    {	
         if(result.getStatus() == ITestResult.FAILURE)
         {
             String screenShotPath = CaptureScreenShot.captureScreen( Constants.driver, "ScreenName");
@@ -86,8 +83,6 @@ public class TestCases
             Constants.test.log(LogStatus.FAIL, "Snapshot below: " +  Constants.test.addScreenCapture(screenShotPath));
         }
         Constants.extent.endTest(Constants.test);
-       
-      
         Constants.driver.quit();
         
    	
